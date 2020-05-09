@@ -11,42 +11,20 @@
 </head>
 
 <body>
+
   <header>
-    <h1>PlatziMediaPlayer</h1>
+    <h1>Platzi Media Player</h1>
     <p>Js Profesional Proyect</p>
   </header>
+
   <main class="container">
     <video class="movie">
       <source src="./assets/03.01.-Configurando Tracks.mp4">
     </video>
-    <button>Play/Pause</button>
+    <button id="playB" class="button">Play/Pause</button>
+    <button id="muteB" class="button">Mute/Unmute</button>
   </main>
 
-  <script>
-    const video = document.querySelector('video')
-    const button = document.querySelector('button')
-
-    function MediaPlayer(config) {
-      this.media = config.el
-    }
-
-    MediaPlayer.prototype.play = function() {
-      this.media.play()
-    }
-
-    MediaPlayer.prototype.pause = function(){
-      this.media.pause()
-    }
-
-    const player = new MediaPlayer({ el: video})
-
-    // Reproduce y detiene el video 
-    button.onclick = function (){
-      (player.media.paused)
-        ? player.play()
-        : player.pause()
-      console.log(player.media.paused)
-    }    
-  </script>
+  <script type="module" src="/assets/index.js"></script>
 </body>
 </html>

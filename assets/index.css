@@ -1,5 +1,4 @@
 *{
-  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -19,17 +18,18 @@ header h1{
   letter-spacing: 2px;
   font-style: italic;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.container video{
+.movie{
   width: 75%;
   margin: 16px 0px;
+  align-self: center;
 } 
 
 
