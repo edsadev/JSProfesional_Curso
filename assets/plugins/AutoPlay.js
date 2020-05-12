@@ -5,7 +5,7 @@ AutoPlay.prototype.run = function (player) {
     player.muted = true
   }
   player.play()
-  console.log(player)
+  // console.log(player)
 }
 
 export default AutoPlay
