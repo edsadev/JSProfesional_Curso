@@ -8,7 +8,6 @@ const player = new MediaPlayer({ el: video,
   plugins: [
     new AutoPlay(),
     new AutoPause(),
-    
   ], 
 })
 
