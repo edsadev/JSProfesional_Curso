@@ -12,6 +12,7 @@
   "author": "Edmundo X. Salamanca Villa",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.4"
   }
 }
