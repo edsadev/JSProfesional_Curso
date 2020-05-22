@@ -4,7 +4,7 @@
   "description": "Proyecto del curso Profesional de Javascript",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "keywords": [
     "platzi"
@@ -12,7 +12,8 @@
   "author": "Edmundo X. Salamanca Villa",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
   },
   "browserslist": [
     "last 1 Chrome version"
