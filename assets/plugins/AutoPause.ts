@@ -21,7 +21,7 @@ class AutoPause {
     document.addEventListener('visibilitychange', this.handleVisibility)  
   }
 
-  private handleIntersection(entries: IntersectionObserverEntry){
+  private handleIntersection(entries: IntersectionObserverEntry[]){
     //console.log(entries)
     const entry = entries[0]
     // console.log(entry)
