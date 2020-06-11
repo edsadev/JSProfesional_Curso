@@ -1,7 +1,7 @@
 // https://github.com/platzi/javascript-profesional/tree/master/website/ejercicios
 import MediaPlayer from './MediaPlayer.js'
 import AutoPlay from './plugins/AutoPlay.js'
-import AutoPause from './plugins/AutoPause.js'
+import AutoPause from './plugins/AutoPause.ts'
 
 const video = document.querySelector('video')
 const player = new MediaPlayer({ el: video, 
