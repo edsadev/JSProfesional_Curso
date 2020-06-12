@@ -4,7 +4,7 @@
   "description": "Proyecto del curso Profesional de Javascript",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html ejercicios/typeScript/index.html"
+    "start": "parcel index.html ejercicios/typeScript/index.html ejercicios/**/*.html"
   },
   "keywords": [
     "platzi"
